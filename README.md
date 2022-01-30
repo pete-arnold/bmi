@@ -16,7 +16,9 @@ We will also need a task to bring all of the components together (the 'main' pro
 ## Step 3: Design each of the components associated with each task on paper.
 Each component needs to have its functionality clearly defined and the inputs and outputs specified.
 
-## Step 4: Implement the tasks.
+## Step 4: Make sure the design fits together.
+
+## Step 5: Implement the tasks.
 Each task needs to be implemented as a function. The functions need to be documented so that the users (other groups) can understand them. We will work through this iteratively until we achieve a working 'main' programme. If ecessary, we will further separate difficult tasks, or allocate new tasks if any prove easy.
 
 ## Step 5: Bring it all together and see what we have.
