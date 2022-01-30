@@ -1,0 +1,2 @@
+# bmi
+BMI github exercise
