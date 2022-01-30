@@ -17,6 +17,7 @@ We will also need a task to bring all of the components together (the 'main' pro
 Each component needs to have its functionality clearly defined and the inputs and outputs specified.
 
 ## Step 4: Make sure the design fits together.
+All groups need to make sure that they know where their data is coming from and what is required of them. The 'main' programme group need to feel confident that they have a programme flow that will work.
 
 ## Step 5: Implement the tasks.
 Each task needs to be implemented as a function. The functions need to be documented so that the users (other groups) can understand them. We will work through this iteratively until we achieve a working 'main' programme. If ecessary, we will further separate difficult tasks, or allocate new tasks if any prove easy.
