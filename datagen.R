@@ -22,7 +22,8 @@ get_realistic_data = function(DATA_SIZE) {
     ID = 1:DATA_SIZE,
     gender = sample(0:1, size=DATA_SIZE, replace=TRUE),
     weight = sample(40:200, size=DATA_SIZE, replace=TRUE),
-    height = sample(50:270, size=DATA_SIZE, replace=TRUE),
+    height = rnorm(DATA_SIZE,170,7),
+    #height = sample(50:270, size=DATA_SIZE, replace=TRUE),
     age = sample(17:100, size=DATA_SIZE, replace=TRUE)
   )
   return (df_gen)
