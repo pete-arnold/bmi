@@ -79,13 +79,13 @@ bmi_of_user <- user_bmi_entry(username)
 
 ### function to add user to the generated dataset
 
-df_gen <- df_gen %>%
-  add_row(ID = nrow(df_gen) + 1,
-          gender = #give gender from tuple,
-          weight = # as above,
-          height = # as above,
-          age = # as above,
-            )
+#df_gen <- df_gen %>%
+#  add_row(ID = nrow(df_gen) + 1,
+#          gender = #give gender from tuple,
+#          weight = # as above,
+#          height = # as above,
+#          age = # as above,
+#            )
 
 
 ### Visualise!
