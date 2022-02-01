@@ -47,3 +47,11 @@ bmi <- function(w_kg, h_cm) {
   return (b)
 }
 
+
+##### user entry of their own weight, height, age, gender
+
+
+### function to add user to the generated dataset
+
+
+### Visualise!
