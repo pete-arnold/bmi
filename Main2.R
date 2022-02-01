@@ -6,4 +6,7 @@
 # Chidimma Maduabum & Linus K. Chirchir
 # ------------------------------------------------------------------------------
 # 
+library(tidyverse)
+library(crayon)
 
+source("datagen.R")
