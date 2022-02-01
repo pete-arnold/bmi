@@ -17,5 +17,5 @@ get_height_weight()
 
 get_character <- function() {
   character_select <- readline(prompt = "Please pick a character from Star Wars")
-
+  return(character_select)
 }
