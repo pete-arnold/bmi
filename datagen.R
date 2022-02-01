@@ -2,7 +2,7 @@
 # Data generation - application
 # ------------------------------------------------------------------------------
 # January 2022
-# Alex Jones & Jason Summers &
+# Alex Jones & Jason Summers & Isinene Onoabhagbe
 # ------------------------------------------------------------------------------
 # We'll be using the tidyverse library for this work for its readability. You
 # could use base-R for many of these operations.
