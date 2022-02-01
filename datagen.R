@@ -50,8 +50,42 @@ bmi <- function(w_kg, h_cm) {
 
 ##### user entry of their own weight, height, age, gender
 
+user_bmi_entry <- function(user) {
+  cat("Hello", user, '\n', sep=' ')
+  print("enter your values as needs be to calculate your bmi against average, -1 to cancel")
+    w_kg <- readline(prompt="enter your weight in kg: ")
+    w_kg <- as.numeric(w_kg)
+    if (is.na(w_kg)){
+      stop("That weight was not a number!\n")
+    } else if (w_kg == -1) {
+      break
+    }
+
+    h_cm <- readline(prompt="enter a height in cm: ")
+    h_cm <- as.numeric(h_cm)
+    if (is.na(h_cm)){
+      stop("That height was not a number!\n")
+    } else if (h_cm == -1) {
+      break
+    }
+    print(bmi(w_kg, h_cm))
+
+    #return weight, height, gender, age
+}
+
+username <- readline(prompt="enter your name: ")
+bmi_of_user <- user_bmi_entry(username)
+
 
 ### function to add user to the generated dataset
+
+df_gen <- df_gen %>%
+  add_row(ID = nrow(df_gen) + 1,
+          gender = #give gender from tuple,
+          weight = # as above,
+          height = # as above,
+          age = # as above,
+            )
 
 
 ### Visualise!
