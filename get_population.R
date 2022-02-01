@@ -7,7 +7,7 @@ get_population <- function(name){
   } else if (name=="realistic"){
     return(get_realistic_data())
   } else {
-    cat(bgRed("There is no dataset called", name, ".\n"))
+    stop(bgRed("There is no dataset called", name, ".\n"))
   }
 }
 
