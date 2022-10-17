@@ -1,23 +1,26 @@
-#main.R
+# main.R
+#
+# PMIM102 Group project using github - Calculate BMI
+#
+# Main program to implement the overall analysis using all the component
+# functions created by the group.
+#
+# Pete Arnold
+# 17.10.2022
 
-# Load all of the tasks as saved to the repository.
-source("get_user_data_choice.R")
-source("get_population.R")
+# 0. A dataset or two needs to be created.
 
-# Get the user to choose which dataset to use.
-dataset <- get_user_data_choice()
-# Given their choice, set the dataset.
-population <- get_population(dataset)
+# 1. Get the dataset source from the user.
 
-# Get the height and weight of the individual to show - the user or the character.
-if (dataset == "starwars"){
-  name <- get_character()
-  # !!! get height and weight for a character from the dataset.
-} else {
-  height_weight < get_height_weight()
-}
+# 2. Locate and load the data.
 
-#added a new comment to test commit
-#added another comment to test commit
+# 3. Produce a Table summary of the data.
 
+# 4. Calculate BMI.
+
+# 5. Categorise BMI.
+
+# 6. Produce a Table summary of the BMI data.
+
+# 7. Plot the BMI data (values, categories?).
   
