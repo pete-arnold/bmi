@@ -22,7 +22,9 @@ create_dataset()
 dataset_name <- get_name_of_required_data()
 
 # 2. Locate and load the data.
-df <- load_dataset(dataset_name)
+# df <- load_dataset(dataset_name)
+source('./Group5/getDataset.R')
+df <- getDataset()
 
 # Verify that the data is OK, fix or highlight problems.
 
