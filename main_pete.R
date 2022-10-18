@@ -45,6 +45,7 @@ df <- categorise_BMI(df)
 
 # 6. Produce a Table summary of the BMI data.
 # Do we need to specify what to generate?
+source('./Group3/generate_statistics.R')
 table_2 <- generate_statistics(df)
 print(table_2)
 # Again, flextable?
@@ -52,26 +53,6 @@ print(table_2)
 # 7. Plot the BMI data (values, categories?).
 # Do we need to specify what to generate?
 plot_1 <- generate_plot(df)
-
-
-
-#Group 3 generating bmi statistics
-generate_statistics <- function(df) {
-
-
-  #pass in array of all BMIs
-  avgBMI <- mean(df$BMI) 
-  #pass in array of all male BMIs
-  avgMBMI <- mean(df$BMI[df$gender=="Female"])
-  #pass in array of all female BMIs
-  avgFBMI <- mean(df$BMI[df$gender=="Male"])
-  
-  #use values to output to user... etc
-  
-  cat("There are ", length(df), " people in this data.  Their average BMI is: ", avgBMI, 
-  "/nThe average BMI for women is: ", avgFBMI,
-  "/nThe average BMI for men is: ", avgMBMI)  
-}
 
 
 
