@@ -1,3 +1,4 @@
+library(tidyverse)
 calculateBMI <- function(dataset) {
   w_kg <- dataset$weight
   h_cm <- dataset$height
@@ -14,3 +15,4 @@ calculateBMI <- function(dataset) {
   bmiDataset <- dataset %>% mutate(BMI=b)
   return(bmiDataset)
 }
+
