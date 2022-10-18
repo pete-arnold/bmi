@@ -50,8 +50,12 @@ plot_1 <- generate_plot(df)
 
 
 
-
-
+#Group 3 generating bmi statistics
+generate_statistics <- function(df) {
+  cat("Generating bmi data...")
+  
+  
+}
 
 
 
