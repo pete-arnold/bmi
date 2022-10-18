@@ -12,7 +12,7 @@ cat("You have chosen ",n, "data items in your dataset.")
 #Ideal data
 
 #If (choice == "I") {
-n <- 10000
+n <- 1000
   id <- seq(1000, 1000 + n - 1, 1)
   mean_weight <- 70
   mean_height <- 175
