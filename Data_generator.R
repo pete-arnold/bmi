@@ -1,5 +1,5 @@
 # Data generator
-# Tina, Souyma, Swati
+# Tina, Soumya, Swathi
 
 choice <- readline(prompt="Would you like an ideal dataset (I), real data (R) or Star Wars data (S): ")
 
