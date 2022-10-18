@@ -19,11 +19,12 @@ create_dataset()
 # 1. Get the dataset source from the user.
 # Is this enough? How do we tell if the dataset is a file or existing R dataset?
 # From the extension?
-dataset_name <- get_name_of_required_data()
+# dataset_name <- get_name_of_required_data()
 
 # 2. Locate and load the data.
 # df <- load_dataset(dataset_name)
-source('./Group5/getDataset.R')
+source('./Group4/getDataset.R')
+# Tested with Datafile.csv.
 df <- getDataset()
 
 # Verify that the data is OK, fix or highlight problems.
@@ -34,7 +35,9 @@ print(table1)
 # flextable?
 
 # 4. Calculate BMI.
-df <- calculate_BMI(df)
+# df <- calculate_BMI(df)
+source('./Group4/calculateBMI.R')
+df <- calculateBMI(df)
 
 # 5. Categorise BMI.
 # Do we need to specify the categories?
@@ -42,6 +45,7 @@ df <- categorise_BMI(df)
 
 # 6. Produce a Table summary of the BMI data.
 # Do we need to specify what to generate?
+source('./Group3/generate_statistics.R')
 table_2 <- generate_statistics(df)
 print(table_2)
 # Again, flextable?
@@ -49,11 +53,6 @@ print(table_2)
 # 7. Plot the BMI data (values, categories?).
 # Do we need to specify what to generate?
 plot_1 <- generate_plot(df)
-
-
-
-
-
 
 
 
