@@ -1,10 +1,10 @@
 #----------------------------------------------------------------------
-#plot the BMI
+#plot the BMI by Group 6
 #-----------------------------------------------------------------------
 dataset <- bmiDataset
 bmi<- bmi
-female <- female
-male <- male
+female <- feminine
+male <- masculine
   
 
 #draw a box plot of BMI
