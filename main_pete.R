@@ -71,6 +71,8 @@ print(table_2)
 #     function.
 source('./bmiPlot.R')
 
+# doing analysis by showing relationship between height and weight
+cor(Datafile5$height, Datafile5$weight)
 
 
 
